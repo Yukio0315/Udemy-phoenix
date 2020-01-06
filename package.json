@@ -5,7 +5,7 @@
     "deploy": "brunch build --production",
     "watch": "brunch watch --stdin",
     "dev": "mix phoenix.server",
-    "exe": "iex -S mix phoenix.server",
+    "shell": "iex -S mix phoenix.server",
     "create_migrate": "mix ecto.gen.migration ",
     "run_migrate": "mix ecto.migrate"
   },
